@@ -136,9 +136,19 @@ body {
 }
 
 .portfolio {
-  margin: 0 0 120px;
+  margin: 0 70px;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  display: flex;
 }
 
+.portfolio_item {
+	margin: 0 10px;
+	width: 50%;
+	align-self: baseline;
+}
+	
 .projects {
   margin: 0;
   padding: 0;
@@ -150,9 +160,11 @@ body {
 }
 
 .project-image {
-  margin: 0 0 24px;
+  width: 400px;
+  height: auto;
   text-align: center;
 }
+
 
 .projects p {
   margin: 0 0 24px;
@@ -172,12 +184,11 @@ body {
 .page-footer {
   padding: 40px 0;
   background-color: #00417d;
-  color: #ffffff;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
